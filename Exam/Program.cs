@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Exam
 {
@@ -6,7 +7,9 @@ namespace Exam
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            List<Bank> AccLis = new List<Bank>();
+            AccLis.Add(new Bank("Cojk", 0));
+
         }
     }
 }
