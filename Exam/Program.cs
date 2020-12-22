@@ -2,7 +2,7 @@
 
 namespace Exam
 {
-    class Program
+    class Programm
     {
         public static void GenerationArray(int[] arr, int MinN, int MaxN)
         {
@@ -67,6 +67,7 @@ namespace Exam
             del = PrArr;
             del = SortArray;
             del(Arr);
+            //
         }
     }
 }
