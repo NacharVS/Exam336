@@ -6,7 +6,8 @@ namespace Exam
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[,] nums = new int[10, 10];
+
         }
     }
 }
