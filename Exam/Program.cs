@@ -6,7 +6,10 @@ namespace Exam
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Fonetika Chaikovsky = new Fonetika(Чайковский, классический, Времена года, 1876);
+            Fonetika Skriptonite = new Skriptonite (Скриптонит, поп, год, 2007);
+
+
         }
     }
 }
