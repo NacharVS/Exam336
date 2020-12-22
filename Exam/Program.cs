@@ -6,7 +6,10 @@ namespace Exam
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Bank bank = new Bank();
+            Bank.ABC();
+            Bank.polosh();
+            Bank.snat();
         }
     }
 }
